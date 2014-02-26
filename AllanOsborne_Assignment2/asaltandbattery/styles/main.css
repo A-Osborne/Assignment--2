@@ -1,0 +1,169 @@
+/* FONTS */
+@import url(http://fonts.googleapis.com/css?family=Krona+One);
+@import url(http://fonts.googleapis.com/css?family=Duru+Sans);
+
+.krona {
+	font-family: 'Krona One', sans-serif;
+}
+.duru {
+	font-family: 'Duru Sans', sans-serif;
+}
+/* BOX MODEL */
+* {
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+	        box-sizing: border-box;
+}
+
+#container {
+	width: 100%;
+	margin: 0 auto;
+
+}
+
+/* HEADER */
+#topHeader {
+	height: 100px;
+	background-color: rgba(5,5,5,0.3);
+	color: white;
+	font-size: 10pt;
+}
+#logo {
+	width: 300px;
+	height: 50px;
+	margin-left: 100px;
+	margin-top: 25px;
+}
+#menu{
+	margin-top: 40px;
+	float: right;
+	width: 50%;
+	padding-left: 100px;
+}
+#menu li {
+	display: inline;
+	margin: 20px;
+}
+
+/* SECTION1 */
+#section1 {
+	height: 500px;
+	background-color: #db334c;
+}
+#heroImg {
+	height: 400px;
+	width: 400px;
+	margin-left: 100px;
+	margin-top: 50px;
+}
+#section1 aside {
+	text-align: center;
+	display: block;
+	color: white;
+	float: right;
+	width: 50%;
+	margin-top: 225px;
+	padding-left: -25px;
+
+}
+#section1 p {
+	padding-bottom: 10px;
+}
+
+/* SECTION2 */
+#section2 {
+	height: 625px;
+}
+#section2 h2 {
+	color: aqua;
+	text-align: center;
+	padding-top: 75px;
+	padding-bottom: 50px;
+	font-size: 40px;
+}
+#section2 aside {
+	float: right;
+	padding-right: 100px;
+}
+#section2 #cook {
+	width: 300px;
+	height: 400px;
+	margin-left: 25px;
+}
+#section2 p {
+	padding-left: 50px;
+	padding-bottom: 25px;
+}
+
+/* SECTION3 */
+#section3 {
+	text-align: center;
+	height: 400px;
+	background-color: rgba(0,255,255,0.5);
+}
+#section3 h2 {
+	color: #db334c;
+	padding-top: 50px;
+	margin-bottom: 50px;
+	font-size: 30px;
+}
+#section3 ul p {
+	padding-bottom: 10px;
+}
+#section3 ul li{
+	color: rgba(25,255,25,1);
+	padding-bottom: 10px;
+}
+.left {
+	float: left;
+	margin-left: 100px;
+}
+.center {
+	float: left;
+	padding-left: 130px;
+}
+#section3 p.krona{
+	color: white;
+}
+
+/* FOOTER */
+#bottomFooter {
+	color: white;
+	background-color: rgba(0,0,0,0.75);
+	height: 250px;
+}
+#bottomFooter ul {
+	float: left;
+	padding-left: 100px;
+}
+#bottomFooter ul p {
+	font-size: 20px;
+	padding-bottom: 10px;
+}
+#bottomFooter li {
+	font-family: sans-serif;
+	padding-top: 5px;
+}
+#bottomFooter ul li:last-child {
+	padding-top: 25px;
+}
+#bottomFooter p {
+	float: right;
+	padding-right: 100px;
+	padding-top: 50px;
+	text-align: right;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
